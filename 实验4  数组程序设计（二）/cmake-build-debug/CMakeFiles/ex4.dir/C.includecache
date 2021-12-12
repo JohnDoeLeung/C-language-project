@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Desktop/C/ex4/main.c
+stdio.h
+D:/Desktop/C/ex4/stdio.h
+string.h
+D:/Desktop/C/ex4/string.h
+

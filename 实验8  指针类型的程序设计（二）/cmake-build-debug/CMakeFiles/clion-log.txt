@@ -1,0 +1,4 @@
+"D:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\Desktop\C\ex8
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Desktop/C/ex8/cmake-build-debug

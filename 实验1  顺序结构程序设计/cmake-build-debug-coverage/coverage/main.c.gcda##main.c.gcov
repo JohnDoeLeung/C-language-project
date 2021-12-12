@@ -1,0 +1,87 @@
+        -:    0:Source:D:/C_Project/ex1/main.c
+        -:    0:Graph:D:\C_Project\ex1\cmake-build-debug-coverage\CMakeFiles\ex1.dir\main.c.gcno
+        -:    0:Data:D:\C_Project\ex1\cmake-build-debug-coverage\CMakeFiles\ex1.dir\main.c.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "stdio.h"
+function prt called 1 returned 100% blocks executed 100%
+        1:    2:void prt(){
+        1:    3:    printf("计算2042-2001451125-梁之栋\n" );
+        1:    3-block  0
+call    0 returned 1
+        1:    4:    printf("-----------------------------------------\n");
+call    0 returned 1
+        1:    5:    printf("                                         \n");
+call    0 returned 1
+        1:    6:}
+function studentGrade called 0 returned 0% blocks executed 0%
+    #####:    7:void studentGrade(){
+        -:    8:    float a,b,c,sum,aver;
+        -:    9:
+    #####:   10:        printf("请分别输入学生的三名课程成绩：（用逗号隔开）\n");
+    %%%%%:   10-block  0
+call    0 never executed
+    #####:   11:        scanf("%f,%f,%f",&a,&b,&c);
+call    0 never executed
+    #####:   12:        sum = a + b +c;
+    #####:   13:        aver = sum/3;
+    #####:   14:        printf("该学生的总成绩为：%.2f\n",sum);
+call    0 never executed
+    #####:   15:        printf("该学生的平均成绩为：%.2f\n",aver);
+call    0 never executed
+    #####:   16:    }
+function entry called 1 returned 0% blocks executed 75%
+        1:   17:void entry(){
+        -:   18:    int a,b,c,d,sum;
+        1:   19:    printf("请输入一个任意4位的正整数\n");
+        1:   19-block  0
+call    0 returned 1
+        1:   20:    scanf("%d%d%d%d",&a,&b,&c,&d);
+call    0 returned 0
+    #####:   21:    sum = a + b + c + d;
+    #####:   22:    printf("这个四位数的各位数字和为：%d",sum);
+call    0 never executed
+    #####:   23:}
+function main called 1 returned 0% blocks executed 75%
+        1:   24:int main(){
+        1:   25:    prt();
+        1:   25-block  0
+call    0 returned 1
+        1:   26:    entry();
+call    0 returned 0
+        -:   27:}
+        -:   28:/*
+        -:   29: #include "stdio.h"
+        -:   30:float summ(float sum,float a,float b,float c) {
+        -:   31:    sum = a + b + c;
+        -:   32:    return sum;
+        -:   33:}
+        -:   34:float average(float aver){
+        -:   35:    aver = summ(aver/3);
+        -:   36:    return aver;
+        -:   37:}
+        -:   38:void main(){
+        -:   39:    printf("计算2042-2001451125-梁之栋\n" );
+        -:   40:    printf("-----------------------------------------\n");
+        -:   41:    printf("请分别输入三门课程的成绩\n");
+        -:   42:    scanf("%f,%f,%f",&summ);
+        -:   43:}
+        -:   44:
+        -:   45://
+        -:   46:// Created by Liang on 2021/10/22.
+        -:   47://
+        -:   48:#include "stdio.h"
+        -:   49:int main(){
+        -:   50:    printf("计算2042-2001451125-梁之栋\n" );
+        -:   51:    printf("-----------------------------------------\n");
+        -:   52:    printf("                                         \n");
+        -:   53:    float a,b,c,sum,aver;
+        -:   54:    printf("请分别输入学生的三名课程成绩：（用逗号隔开）\n");
+        -:   55:    scanf("%.2f,%.2f,%.2f",&a,&b,&c);
+        -:   56:    sum = a + b +c;
+        -:   57:    aver = sum/3;
+        -:   58:    printf("该学生的总成绩为：",sum);
+        -:   59:    printf("该学生的平均成绩为：",aver);
+        -:   60:}
+        -:   61:
+        -:   62: * */
